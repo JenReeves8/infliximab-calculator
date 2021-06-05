@@ -6,7 +6,7 @@ if dose > 10.5:
 	print('Use 500cc bag of NS')
 else:
 	print('Use 250cc bag of NS')
-inf =  input('How many prior infusions has the pt had? ')
+inf =  input('How many prior infusions has the patient had? ')
 if float(inf) > 4:
 	infnum = input('How much NS is being used? ')
 	if float(infnum) == 250:
