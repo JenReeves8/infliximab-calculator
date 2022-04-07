@@ -50,7 +50,7 @@ def success(request):
     if 'user' not in request.session:
         return redirect('/')
     else:
-        return redirect('quotes/')
+        return redirect('calc/')
 
 def logout(request):
     request.session.clear()
